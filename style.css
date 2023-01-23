@@ -1,0 +1,52 @@
+* { 
+    font: optional;
+background color: red;
+}
+
+h1{
+    color:black;
+    font-style: italic;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+body{ 
+    background-color: blue; 
+    border: 30px;
+    flex-direction: column;
+    padding: auto; 
+
+}
+
+p{
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    display: flex;
+    flex-grow: 2;
+    color: brown;
+
+}
+h2{
+    color:red;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    text-transform: uppercase;
+}
+h3{
+    color:yellow;
+    font-style: italic;
+    font-weight: 200;
+}
+
+table, th, td{
+    border: 2px solid;
+    width: 50%;
+    
+}
+div{
+    border: 1px;
+    background-color: brown;
+    width: 50%;
+
+}
