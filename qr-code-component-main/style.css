@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:hsl(212,45%,89%);
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.holder{
+    background-color: hsl(0,0%,100%);
+    width: 250px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
